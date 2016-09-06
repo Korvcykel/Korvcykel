@@ -18,4 +18,27 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+    <repositories>
+        <repository>
+            <id>Jonasa-test</id>
+            <name>Jonasa-test</name>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+            <url>http://localhost:8081/repository/Jonasa-test/</url>
+        </repository>
+    </repositories>
+
+    <distributionManagement>
+        <repository>
+        <id>Jonasa-test</id>
+        <name>Jonasa-test</name>
+        <url>http://localhost:8081/repository/Jonasa-test/</url>
+        </repository>
+    </distributionManagement>
+
 </project>
